@@ -18,8 +18,8 @@ A simple function used for 'removing' the extra printed characters ***"0b"**, **
 A simple function used to invert 0 to 1 and 1 to 0 in string format.
 
 ## How it works
-At first user is asked to give the initial number and at same time to select the system in which this number belongs.
-Then based on the above informations the number which user has entered is being converted to an integer by one of the folloing commands : 
+At first user is asked to give the initial number and at the same time to select the system in which this number belongs.
+Then based on the above informations the number which user has entered is being converted to an integer by one of the following commands : 
 ```
 int(num, 2)  # If num is number and system is binary
 int(num)     # if num is number and system is decimal
@@ -59,5 +59,4 @@ Number of F's should as many as needed to fill length of 8 digits.
 ```
 
 ## Authors
-
 * **Konstantinos Thanos**
