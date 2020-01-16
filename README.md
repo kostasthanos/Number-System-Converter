@@ -20,25 +20,25 @@ A simple function used to invert 0 to 1 and 1 to 0.
 ## How it works
 At first user is asked to give the initial number and at same time to select the system in which this number belongs.
 Then based on the above informations the number which user has entered is being converted to an integer by one of the folloing
-'''
+```
 int(num, 2)  # If num is number and system is binary
 int(num)     # if num is number and system is decimal
 int(num, 8)  # If num is number and system is octal
 int(num, 16) # If num is number and system is hexadecimal
-'''
+```
 Then set the above to the variable temp.
 The user is asked to choose in which system he would like to convert the initial number except the initial system.
 Finally the appripriate commands are used to convert the number
-'''
+```
 temp      # Gives the number to decimal system
 bin(temp) # Gives the number to binary system
 oct(temp) # Gives the number to octal system
 hex(tmep) # Gives the number to hexadecimal system
-'''
+```
 
 ## Additional Information
 In case that user enters a negative number then program does the following procedure. Let's say that we want to convert -123 to hexadecimal.
-'''
+```
 1. Transform positive 123 to decimal
 a = bin(123)
 1111011
@@ -57,7 +57,7 @@ result = hex(int(c, 2))
 85
 6. Add F's in front of the result to show that number is negative. Number of F's should as many as needed to fill length of 8 digits.
 FFFFFF85
-'''
+```
 
 ## Authors
 
