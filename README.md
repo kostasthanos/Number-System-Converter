@@ -2,9 +2,9 @@
 A program to convert a number from one system to another with the appropriate commands for each system
 
 ##  Number systems used in the program
-*     Decimal (base 10) : Any number by using any of the 10 digits (0 to 9)
-*      Binary (base 2)  : Any number by using any of the 2 digits (0 and 1)
-*       Octal (base 8)  : Any number by using any of the 8 digits (0 to 7)
+* Decimal (base 10) : Any number by using any of the 10 digits (0 to 9)
+* Binary (base 2)  : Any number by using any of the 2 digits (0 and 1)
+* Octal (base 8)  : Any number by using any of the 8 digits (0 to 7)
 * Hexadecimal (base 16) : Any number by using any of the 10 digits and 6 characters (0 to 9, A,B,C,D,E,F)
 
 ## Functions used in the program
