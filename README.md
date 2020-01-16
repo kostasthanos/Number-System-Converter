@@ -39,24 +39,22 @@ hex(tmep) # Gives the number to hexadecimal system
 ## Additional Information
 In case that user enters a negative number then program does the following procedure. Let's say that we want to convert -123 to hexadecimal.
 ```
-1. Transform positive 123 to decimal
-a = bin(123)
-1111011
-2. Add 0's to the above decimal if degits are less than 8
-a = '0'*(8-len(a)) + a
-01111011
-3. Invert all digits using the invert() function and save it as a string b
+# Transform positive 123 to decimal
+a = bin(123) # 1111011
+# Add 0's to the above decimal if degits are less than 8
+a = '0'*(8-len(a)) + a # 01111011
+# Invert all digits using the invert() function and save it as a string b
 b = ''
 for let in a:
     b = invert(let)
-10000100
-4. Add '1' to the above result and remove extra chars using remove() function
+# 10000100
+# Add '1' to the above result and remove extra chars using remove() function
 c = remove(bin(int(b, 2) + int('1', 2)))
-5. Convert to hexadecimal system
-result = hex(int(c, 2))
-85
-6. Add F's in front of the result to show that number is negative. Number of F's should as many as needed to fill length of 8 digits.
-FFFFFF85
+# Convert to hexadecimal system
+result = hex(int(c, 2)) # 85
+# Add F's in front of the result to show that number is negative. 
+Number of F's should as many as needed to fill length of 8 digits. 
+# FFFFFF85
 ```
 
 ## Authors
