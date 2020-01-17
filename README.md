@@ -41,15 +41,15 @@ In case that user enters a negative number then the program uses the following p
 Let's say for example that we want to convert -123 to hexadecimal.
 ```
 1. Transform positive 123 to decimal : a = bin(123) # 1111011
-2. Add 0's to the above decimal if degits are less than 8 : a = '0'*(8-len(a)) + a # 01111011
-3. Invert all digits using the invert() function and save it as a string b = '' : 
-for let in a:
-    b = invert(let)
-# 10000100
+2. Add 0's to decimal a if it's digits are less than 8 : a = '0'*(8-len(a)) + a # 01111011
+3. Invert all digits using the invert() function and save it as a string b. Initialize b='' : 
+   for let in a:
+       b += invert(let)
+       # 10000100
 4. Add '1' to the above result and remove extra chars using remove() function : c = remove(bin(int(b, 2) + int('1', 2)))
 5. Convert to hexadecimal system : result = hex(int(c, 2)) # 85
 6. Add F's in front of the result to show that number is negative.
-Number of F's should as many as needed to fill length of 8 digits. : # FFFFFF85
+   Number of F's should be as many as needed to fill the length of 8 digits. : # FFFFFF85
 ```
 
 ## Authors
