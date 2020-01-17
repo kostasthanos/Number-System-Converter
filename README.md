@@ -46,7 +46,8 @@ Let's say for example that we want to convert -123 to hexadecimal.
    for let in a:
        b += invert(let)
        # 10000100
-4. Add '1' to the above result and remove extra chars using remove() function : c = remove(bin(int(b, 2) + int('1', 2)))
+4. Add '1' to the above result and remove extra chars using remove() function : 
+   c = remove(bin(int(b, 2) + int('1', 2)))
 5. Convert to hexadecimal system : result = hex(int(c, 2)) # 85
 6. Add F's in front of the result to show that number is negative.
    Number of F's should be as many as needed to fill the length of 8 digits. : # FFFFFF85
