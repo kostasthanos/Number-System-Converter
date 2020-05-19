@@ -21,10 +21,10 @@ A simple function used to invert 0 to 1 and 1 to 0 in string format.
 At first user is asked to give the initial number and at the same time to select the system in which this number belongs.
 Then based on the above informations the number which user has entered is being converted to an integer by one of the following commands : 
 ```
-int(num, 2)  # If num is number and system is binary
-int(num)     # if num is number and system is decimal
-int(num, 8)  # If num is number and system is octal
-int(num, 16) # If num is number and system is hexadecimal
+int(num, 2)  # If num is the number and system is binary
+int(num)     # if num is the number and system is decimal
+int(num, 8)  # If num is the number and system is octal
+int(num, 16) # If num is the number and system is hexadecimal
 ```
 Then set variable **temp** equal to one of the above.
 The user is asked to choose in which system he would like to convert the initial number except the initial system.
