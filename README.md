@@ -56,5 +56,5 @@ Let's say for example that we want to convert -123 to hexadecimal.
    Number of F's should be as many as needed to fill the length of 8 digits. : # FFFFFF85
 ```
 
-## Authors
+## Author
 * **Konstantinos Thanos**
