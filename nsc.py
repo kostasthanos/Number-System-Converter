@@ -103,7 +103,7 @@ def convert():
     else:
         print("Press a correct number")
     result = str(result) # Trasform result to string
-    result = remove(result).strip() # Apply rem() function to remove extra characters
+    result = remove(result).strip() # Apply remove() function to remove extra characters
     print("Result: ", result.upper())
         
 if __name__ == "__main__":
