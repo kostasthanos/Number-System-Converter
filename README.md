@@ -40,8 +40,10 @@ hex(temp) # Gives the number to hexadecimal system
 In case that user enters a negative number then the program uses the following procedure. 
 Let's say for example that we want to convert -123 to hexadecimal.
 ```
-1. Transform positive 123 to decimal : a = bin(123) # 1111011
-2. Add 0's to decimal a if it's digits are less than 8 : a = '0'*(8-len(a)) + a # 01111011
+1. Transform positive 123 to decimal : 
+   a = bin(123) # 1111011
+2. Add 0's to decimal a if it's digits are less than 8 : 
+   a = '0'*(8-len(a)) + a # 01111011
 3. Invert all digits using the invert() function and save it as a string b. Initialize b='' : 
    for let in a:
        b += invert(let)
