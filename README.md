@@ -1,6 +1,10 @@
 # Number System Converter
 A program to convert a number from one system to another with the appropriate commands for each system.
 
+<p align="center">
+  <img width="400" height="350" src="nsc.png">
+</p>
+
 ##  Number systems used in the program
 * Decimal (base 10) : Any number by using any of the 10 digits (0 to 9).
 * Binary (base 2)  : Any number by using any of the 2 digits (0 and 1).
