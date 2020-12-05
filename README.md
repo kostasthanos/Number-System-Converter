@@ -2,7 +2,7 @@
 A program to convert a number from one system to another with the appropriate commands for each system.
 
 <p align="center">
-  <img width="400" height="350" src="nsc.png">
+  <img width="450" height="300" src="nsc.png">
 </p>
 
 ##  Number systems used in the program
