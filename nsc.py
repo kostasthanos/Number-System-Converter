@@ -107,7 +107,7 @@ def convert():
     print("Result: ", result.upper())
         
 if __name__ == "__main__":
-    print("\n### System Convertion ###")
+    print("\n# Number System Converter #")
     while True:
         convert()
         # Ask user if he wants to continue with another new number
