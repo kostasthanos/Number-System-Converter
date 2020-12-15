@@ -4,7 +4,7 @@
 #   one system to another   #
 #===========================#
 #    Konstantinos Thanos    #
-#    Mathematician, Msc     #
+#     Mathematician, Msc    #
 #===========================#
 
 # Function to remove extra characters ('0b', '0o', '0x') from a printed result
