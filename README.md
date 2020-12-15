@@ -40,7 +40,7 @@ oct(temp) # Gives the number to octal system
 hex(temp) # Gives the number to hexadecimal system
 ```
 
-## Additional Information
+## Negative numbers
 In case that user enters a negative number then the program uses the following procedure. 
 Let's say for example that we want to convert -123 to hexadecimal.
 ```
@@ -59,6 +59,9 @@ Let's say for example that we want to convert -123 to hexadecimal.
 6. Add F's in front of the result to show that number is negative.
    Number of F's should be as many as needed to fill the length of 8 digits. # FFFFFF85
 ```
+
+## 4th option in transformations
+A 4th option has benn added in transformations *menu*. Now the user can transform his number not only to one of the other 3 systems but in all three together at once.
 
 ## Author
 * **Konstantinos Thanos**
