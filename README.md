@@ -23,7 +23,7 @@ Function used to invert 0 to 1 and 1 to 0 in string format.
 
 ## How it works
 At first user is asked to give the initial number and at the same time to select the system in which this number belongs.
-Then based on the above informations the number which user has entered is being converted to an integer by one of the following commands : 
+Then based on the above information the number which user has entered is being converted to an integer by one of the following commands : 
 ```
 int(num, 2)  # If num is the number and system is binary
 int(num)     # if num is the number and system is decimal
