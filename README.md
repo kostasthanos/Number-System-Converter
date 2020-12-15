@@ -2,7 +2,7 @@
 A program to convert a number from one system to another with the appropriate commands for each system.
 
 <p align="center">
-  <img width="450" height="300" src="nsc.png">
+  <img width="450" height="300" src="imgs/nsc.png">
 </p>
 
 ##  Number systems used in the program
@@ -59,9 +59,17 @@ Let's say for example that we want to convert -123 to hexadecimal.
 6. Add F's in front of the result to show that number is negative.
    Number of F's should be as many as needed to fill the length of 8 digits. # FFFFFF85
 ```
+<p align="center">
+  <img width="450" height="300" src="imgs/negative.png">
+</p>
 
 ## 4th option in transformations
 A 4th option has benn added in transformations *menu*. Now the user can transform his number not only to one of the other 3 systems but in all three together at once.
+
+<p align="center">
+  <img width="450" height="300" src="imgs/all1.png">
+  <img width="450" height="300" src="imgs/all2.png">
+</p>
 
 ## Author
 * **Konstantinos Thanos**
