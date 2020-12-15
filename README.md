@@ -57,7 +57,7 @@ Let's say for example that we want to convert -123 to hexadecimal.
 5. Convert to hexadecimal system : 
    result = hex(int(c, 2)) # 85
 6. Add F's in front of the result to show that number is negative.
-   Number of F's should be as many as needed to fill the length of 8 digits. : # FFFFFF85
+   Number of F's should be as many as needed to fill the length of 8 digits. # FFFFFF85
 ```
 
 ## Author
