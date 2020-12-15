@@ -3,8 +3,8 @@
 #   Convert a number from   #
 #   one system to another   #
 #===========================#
-# KONSTANTINOS THANOS       #
-# Mathematician, Msc        #
+#    KONSTANTINOS THANOS    #
+#    Mathematician, Msc     #
 #===========================#
 
 # Function to remove extra characters ('0b', '0o', '0x') from a printed result
