@@ -12,13 +12,13 @@ A program to convert a number from one system to another with the appropriate co
 * Hexadecimal (base 16) : Any number by using any of the 10 digits and 6 characters (0 to 9, A,B,C,D,E,F).
 
 ## Functions used in the program
-### convert()
+### convert
 The basic function of the program which contains basic commands to transform a number from one system to another.
 
-### remove(...)
+### remove
 A simple function used for 'removing' the extra printed characters ***"0b"**, ***"0o"** or ***"0x"** used for binary, octal and hexadecimal systems.
 
-### invert(...)
+### invert
 A simple function used to invert 0 to 1 and 1 to 0 in string format.
 
 ## How it works
