@@ -16,10 +16,10 @@ A program to convert a number from one system to another with the appropriate co
 The basic function of the program which contains basic commands to transform a number from one system to another.
 
 ### remove
-A simple function used for 'removing' the extra printed characters ***"0b"**, ***"0o"** or ***"0x"** used for binary, octal and hexadecimal systems.
+Function used for 'removing' the extra printed characters **"0b"**, **"0o"** or **"0x"** used for binary, octal and hexadecimal systems.
 
 ### invert
-A simple function used to invert 0 to 1 and 1 to 0 in string format.
+Function used to invert 0 to 1 and 1 to 0 in string format.
 
 ## How it works
 At first user is asked to give the initial number and at the same time to select the system in which this number belongs.
