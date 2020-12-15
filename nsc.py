@@ -82,7 +82,7 @@ def convert():
                 result = hex(int(c, 2))
             result = remove(result) # Apply remove() function to the result
             if len(result) < 8: 
-                result = 'F'*(8-len(result)) + result # Add F's to fill the '8 digits number'
+                result = 'F'*(8-len(result)) + result # Add F's to fill the '8-digits number'
     # Transformations from Octal to (Binary or Decimal or Hexadecimal)
     elif my_system == 3:
         if system_choice == 1:
